@@ -4,6 +4,10 @@ function findMatching(drivers, string){
   });
 }
 
-function fuzzyMatch(){}
+function fuzzyMatch(drivers, string){
+  return drivers.filter(name => {
+    return name
+  })
+}
 
 function matchName(){}
