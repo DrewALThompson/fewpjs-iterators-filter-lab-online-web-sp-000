@@ -1,6 +1,6 @@
 function findMatching(array, string){
   array.filter(word => {
-    return word === string;
+    return word == string;
   });
 }
 
