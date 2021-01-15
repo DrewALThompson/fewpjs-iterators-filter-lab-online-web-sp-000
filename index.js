@@ -1,6 +1,8 @@
-function findMatching(array, string){
-  array.filter(word => {
-    return word == string;
+function findMatching(drivers, string){
+  drivers.filter(name => {
+    console.log(name);
+    console.log(string);
+    return name == string;
   });
 }
 
